@@ -2,7 +2,7 @@ import json
 from google import genai
 import todo_service
 
-client = genai.Client(api_key="AIzaSyAsj3x--Z1ePYAKAzGVWDemJusG9wWVnIo")
+client = genai.Client(api_key="YOUR_API_KEY")
 
 
 def agent(query: str):
